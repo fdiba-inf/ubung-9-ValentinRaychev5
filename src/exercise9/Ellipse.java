@@ -30,11 +30,11 @@ public class Ellipse {
 
   public void initialize() {
     do {
-      System.out.println("Start point: ");
+      //System.out.println("Start point: ");
       start.initialize();
-      System.out.println("Enter height: ");
+      //System.out.println("Enter height: ");
       height = Utils.INPUT.nextDouble();
-      System.out.println("Enter width: ");
+      //System.out.println("Enter width: ");
       width = Utils.INPUT.nextDouble();
     }while(!isValid());
   }
