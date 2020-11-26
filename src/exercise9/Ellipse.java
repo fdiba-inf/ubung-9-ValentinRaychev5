@@ -48,7 +48,7 @@ public class Ellipse {
   }
 
   public String getType() {
-    return (height == width) ? "Circle" : "Ellipse";
+    return (height == width) ? "Cycle" : "Ellipse";
   }
 
   public String toString()  {
